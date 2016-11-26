@@ -32,6 +32,45 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdvancedClasses">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\AdvancedClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="BFunc">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\BFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="CameraControler">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\CameraControler.dll</HintPath>
+    </Reference>
+    <Reference Include="FStore">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\FStore.dll</HintPath>
+    </Reference>
+    <Reference Include="HModules">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\HModules.dll</HintPath>
+    </Reference>
+    <Reference Include="NConn">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NConn.dll</HintPath>
+    </Reference>
+    <Reference Include="NFnc">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NFnc.dll</HintPath>
+    </Reference>
+    <Reference Include="NFtdr">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NFtdr.dll</HintPath>
+    </Reference>
+    <Reference Include="NFtest">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NFtest.dll</HintPath>
+    </Reference>
+    <Reference Include="NFunc">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NFunc.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NMess">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\NMess.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCodeEncodeNET">
+      <HintPath>C:\Users\PHUGIA-DESKTOP\Desktop\New folder\QRCodeEncodeNET.DLL</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
