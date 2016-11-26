@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -115,6 +116,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdvancedClasses.dll" />
+    <Content Include="BFunc.dll" />
+    <Content Include="CameraControler.dll" />
+    <Content Include="FStore.dll" />
+    <Content Include="HModules.dll" />
+    <Content Include="NConn.dll" />
+    <Content Include="NFnc.dll" />
+    <Content Include="NFtdr.dll" />
+    <Content Include="NFtest.dll" />
+    <Content Include="NFunc.dll" />
+    <Content Include="NLog.dll" />
+    <Content Include="NMess.dll" />
+    <Content Include="QRCodeEncodeNET.DLL" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
