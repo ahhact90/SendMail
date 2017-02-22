@@ -89,7 +89,8 @@ namespace SendMail
 
         private void btMailList_Click(object sender, EventArgs e)
         {
-            OpenFileDialog dialog = new OpenFileDialog();
+            SaveFileDialog dialog = new SaveFileDialog();
+           
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 txbTo.Text = dialog.FileName;
